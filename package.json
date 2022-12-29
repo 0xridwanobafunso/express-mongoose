@@ -1,0 +1,32 @@
+{
+  "name": "express-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "common-password": "^0.1.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fxa-common-password-list": "0.0.4",
+    "mailchecker": "^3.3.10",
+    "mongo-cursor-pagination": "^7.3.0",
+    "mongoose": "^5.9.25",
+    "mongoose-cursor-pagination": "^1.0.1",
+    "mongoose-paginate-v2": "^1.3.9",
+    "morgan": "^1.10.0",
+    "node-geocoder": "^3.27.0"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
